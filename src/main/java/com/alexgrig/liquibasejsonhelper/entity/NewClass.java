@@ -1,2 +1,5 @@
+package com.alexgrig.liquibasejsonhelper.entity;
 
-public class NewClass {}
+public class NewClass {
+    private String more;
+}
