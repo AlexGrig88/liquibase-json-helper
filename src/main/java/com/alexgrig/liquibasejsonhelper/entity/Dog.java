@@ -21,5 +21,5 @@ public class Dog implements Serializable {
     private String breed;
 
     @JsonProperty
-    private Integer age;
+    private boolean automaticCertificate;
 }
