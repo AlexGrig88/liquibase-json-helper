@@ -4,25 +4,15 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
-import javax.persistence.Entity;
 import java.io.Serializable;
 
-
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class Dog implements Serializable {
+@NoArgsConstructor
+public class DogMapper extends Dog implements Serializable {
 
-    @JsonProperty
-    private String nickname;
-
-    @JsonProperty
-    private String breed;
-
-    @JsonProperty
-    private boolean automaticCertificate;
-//
     @JsonProperty
     private Integer age;
 }
