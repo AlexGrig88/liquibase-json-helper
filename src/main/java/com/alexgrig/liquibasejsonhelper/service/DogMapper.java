@@ -6,4 +6,8 @@ public class DogMapper {
 
     private int weight;
     private String color;
+
+    public String toString(DogMapper dogMapper) {
+        return "dogmapper" + "the best";
+    }
 }

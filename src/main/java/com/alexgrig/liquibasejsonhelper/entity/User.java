@@ -34,6 +34,7 @@ public class User implements Serializable {
     private Dog dog;
 
 
+
     // Далее конструктор по умолчанию, геттеры и сеттеры
     // Или можете использовать Lombok
 }
