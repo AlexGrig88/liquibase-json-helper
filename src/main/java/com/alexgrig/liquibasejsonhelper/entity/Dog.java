@@ -9,7 +9,8 @@ import javax.persistence.Entity;
 import java.io.Serializable;
 
 
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Dog implements Serializable {
