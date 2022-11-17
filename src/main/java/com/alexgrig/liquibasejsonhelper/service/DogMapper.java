@@ -1,5 +1,6 @@
 package com.alexgrig.liquibasejsonhelper.service;
 
+//Mapper
 public class DogMapper {
 
     private String name;
